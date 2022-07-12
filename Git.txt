@@ -1,0 +1,32 @@
+git : it is a version controll system
+
+yum install git -y
+git --version
+mkdir git-project
+cd git-project/
+git init
+touch m1
+git add m1 ( working to staging move )
+git status
+git commit -m "commited the file m1 file"
+git add . && git commit -m "commited the files" ( staging to local move )
+git log ( for history )
+git config --global user.name "veera" ( root place lo veera vastundi )
+git config --global user.email "vickyy814@gmail.com
+git branch feb-2022
+git branch
+git checkout feb-2022
+git branch
+git checkout -b july-2022
+git branch
+git checkout feb-2022
+git branch -d july-2022
+git branch
+ll
+vim m1
+git add . && git commit -m "commited the files"
+git status
+cat m1
+git merge feb-2022
+
+
